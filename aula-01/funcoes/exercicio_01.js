@@ -13,3 +13,6 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+
+criar funcao pearNomeCompleto(param1, paraem2)
+dentro da funcao, insira 
