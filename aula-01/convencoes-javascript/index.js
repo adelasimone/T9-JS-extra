@@ -39,7 +39,7 @@ const primeiroNome = 'Joana';
 
 camelCase = primeiroNome // utilizado em declarações de variáveis, funções e métodos.
 PascalCase = ContaCorrente //utilizado para declarações de classes e arquivos que contenha classes dentro.
-
+// snake_case = // nao utiliza no js
 
 //CONVENÇÕES DE NOMENCLATURA JAVASCRIPT: BOOLEAN
 
