@@ -14,5 +14,22 @@ nº 1293.
 
 O retorno deverá ser template string*/
 
-criar funcao pearNomeCompleto(param1, paraem2)
-dentro da funcao, insira 
+// criar funcão pegarNomeCompleto(parametro1, parametro)
+// dentro da funcao, insira objeto endereco
+// retornar com algumas informações:
+
+// const primeiroNome = 'Adela';
+// const sobrenome = 'Apaza';
+
+function pegarNomeCompleto(nome, sobrenome){
+  
+  let endereco = {
+    cidade: 'São Paulo/SP',
+    bairro: 'Centro', 
+    rua: 'Rua dos Pinheiros',
+    numero: 1293
+  }
+  return `${nome} ${sobrenome}`
+} 
+
+console.log(pegarNomeCompleto)
