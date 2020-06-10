@@ -27,3 +27,9 @@ https://github.com/braziljs/eloquente-javascript
 ...
 */
 
+for (propiedade in livros){
+  console.log(`${livros[propiedade]['titulo']}
+  \n ${livros[propiedade]['quemEscreveu']}
+  \n ${livros[propiedade]['link']}`
+  )
+}

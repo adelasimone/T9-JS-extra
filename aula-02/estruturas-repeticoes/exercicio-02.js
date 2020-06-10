@@ -22,3 +22,14 @@ Jordana
 Lilian
 28
 ...*/
+// usuarios.forEach((valorAtual,indice) => {
+//   console.log(valorAtual)
+//   console.log(usuarios[indice])
+// })
+
+// console.log('------------')
+
+// apenas ler o array
+for(usuario of usuarios){
+  console.log(usuario)
+}
