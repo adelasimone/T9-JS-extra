@@ -1,10 +1,10 @@
-/*Você sabe quantos anos seu cão tem em anos humanos, mas e quanto a anos de cachorro? Calcule-o!
-Escreva uma função chamada calcularIdadeCachorro:
+/* Crie uma funcao que receba o parametro ano de nascimento e retorne a idade a partir do ano atual*/
 
-leva 1 parâmetro/argumento: a idade do seu cachorro.
-calcula a idade do seu cão com base na taxa de conversão de 1 ano humano a 7 anos de cão.
-exibe o resultado na tela da seguinte maneira: "Seu cachorro tem NN anos em anos de cachorro!"
-Chame a função três vezes com diferentes conjuntos de valores.
-*/
+function calculoIdade(ano) {
+  const anoAtual = new Date().getFullYear(); //pega o ano atual do sistema
+  const calculoIdade = anoAtual - ano;
 
+  console.log(`A sua idade e ${calculoIdade} anos`)
+}
 
+const resultadoIdade = calculoIdade(2000)
