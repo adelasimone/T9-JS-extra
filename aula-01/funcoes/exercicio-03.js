@@ -11,3 +11,10 @@ function pegaPalavra(palavra) {
 }
 
 const 
+function obterPalavra(palavra) {
+  return palavra.length;
+}
+
+const quantidadeLetras = obterPalavra('Ariane');
+
+console.log(quantidadeLetras)
